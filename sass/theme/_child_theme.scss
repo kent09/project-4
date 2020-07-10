@@ -1,0 +1,126 @@
+a, a:hover, a:focus {
+  color: $primary;
+  cursor: pointer;
+  outline: none;
+}
+
+button[type='submit'], input[type='submit'], .woocommerce a.button {
+  background-color: $primary !important;
+  border-radius: 0 !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,  button[type='submit']:hover, input[type='submit']:hover, .woocommerce a.button:hover {
+  opacity: .8;
+}
+
+.woocommerce .woocommerce-breadcrumb{
+  color: #cccccc;
+}
+
+.woocommerce .woocommerce-breadcrumb a {
+  color: $primary;
+  padding-right: 5px;
+}
+
+.woocommerce-message{
+  border-top-color: $primary;
+}
+
+.woocommerce-info {
+  border-top-color: $primary;
+
+  &::before {
+   color: $primary;
+  }
+
+}
+
+.woocommerce-message::before {
+  content: "\e015";
+  color: $primary;
+}
+
+.wc-proceed-to-checkout a{
+  background-color: #000000;
+}
+
+.copy-right a {
+  color: #000000;
+
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+.woocommerce a.remove {
+  color: #000000 !important;
+  font-weight: 600;
+
+  &:hover {
+    color: #000000 !important;
+    background:#ffffff !important;
+    opacity: 0.7;
+  }
+}
+
+.woocommerce-cart-form, .shop_table .cart-subtotal, .order-total, .woocommerce-checkout-review-order-table{
+  .woocommerce-Price-amount {
+    color: $primary !important;
+  }
+}
+
+.woocommerce table.shop_table tbody, .woocommerce table.shop_table tfoot, .woocommerce table.shop_table tfoot, .woocommerce table.shop_table{
+  th{
+    font-weight: 600;
+  }
+}
+
+.cart_totals {
+  h2, .wc-proceed-to-checkout{
+    text-transform: capitalize;
+  }
+
+  .order-total strong {
+    font-weight: 500;
+  }
+}
+
+#coupon_code.input-text {
+  padding: 10px 6px 10px;
+  height: calc(1.5em + .75rem + 8px);
+  @media (min-width: 768px) {
+    width: 143px!important;
+  }
+}
+
+.woocommerce-input-wrapper {
+  .input-text {
+    border-radius: 1px;
+  }
+}
+
+.entry-header .entry-title, #order_review_heading, #customer_details {
+  margin-bottom: 2rem;
+}
+
+.select2-container .select2-selection--single {
+  height: 38px;
+  padding-top:4px;
+
+  .select2-selection__arrow {
+    height: 36px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
